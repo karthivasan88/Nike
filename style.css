@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.Header {
+  color: White;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar > a {
+  margin-right: 10px;
+  padding-left: 70px;
+  justify-content: space-around;
+  opacity: 70%;
+}
+.navbar a:hover {
+  color: whitesmoke;
+  opacity: 100%;
+}
+.headback {
+  width: 100%;
+  background-color: #292929;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+marquee {
+  margin-top: 50px;
+  width: 80%;
+}
+.box2 {
+  background: #353535;
+}
+.subhead {
+  color: orange;
+  text-align: center;
+  padding: 80px;
+}
+.container {
+  display: flex;
+}
+.image {
+  width: 70%;
+}
+.info-container {
+  color: white;
+}
+.btn {
+  color: white;
+  background-color: orange;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.tablecontainer {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+}
+.box {
+  flex: 0 0 calc(33.333% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #656262;
+  color: azure;
+  background-color: #656262;
+}
+.fa-solid {
+  /* font-size: 40px; */
+  color: White;
+  /* margin-bottom: 30px; */
+}
+.sam {
+  color: orange;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.Special {
+  color: orange;
+  padding-top: 50px;
+  text-align: center;
+}
+.box > img {
+  width: 300px;
+}
+.tablcontainer {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+}
+.box1 > img {
+  width: 380px;
+}
+.box1 {
+  flex: 0 0 calc(33.333% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #656262;
+  color: azure;
+  background-color: #656262;
+}
+.Form {
+  background: #292929;
+  color: white;
+}
+form {
+  width: 50%;
+  background-color: #656262;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+form label {
+  display: inline-block;
+  width: 10%; /* Adjust the width of the labels */
+  margin-bottom: 10px;
+  color: #fff; /* Optional: Text color for labels */
+  text-align: right;
+  padding-right: 10px;
+}
+footer {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.fa-brands {
+  color: orange;
+  font-size: 36px;
+  padding: 15px;
+}
